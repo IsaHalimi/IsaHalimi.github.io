@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Isa Halimi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="sidebar bar-block small hide-small center">
+  <!-- Avatar image in top left corner -->
+  <img src="Images/isa2.jpg" style="width:100%">
+  <a href="#" class="bar-item button padding-large black">
+    <i class="fa fa-home xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="bar-item button padding-large hover-black">
+    <i class="fa fa-user xxlarge"></i>
+    <p>Über mich</p>
+  </a>
+  <a href="#photos" class="bar-item button padding-large hover-black">
+    <i class="fa fa-eye xxlarge"></i>
+    <p>Projekte</p>
+  </a>
+  <a href="#contact" class="bar-item button padding-large hover-black">
+    <i class="fa fa-envelope xxlarge"></i>
+    <p>Kontakt</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="top hide-large hide-medium" id="myNavbar">
+  <div class="bar black opacity hover-opacity-off center small">
+    <a href="#" class="bar-item button" style="width:25% !important">HOME</a>
+    <a href="#about" class="bar-item button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="bar-item button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="bar-item button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="container padding-32 center black" id="home">
+    <h1 class="jumbo"><span class="hide-small">Isa</span> Halimi.</h1>
+    <p>APPLIKATIONSENTWICKER IN AUSBILDUNG</p>
+    <img src="Images/isa2.jpg" alt="boy" class="image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="content justify text-grey padding-64" id="about">
+    <h2 class="text-light-grey">Über mich</h2>
+    <hr style="width:200px" class="opacity">
+    <p>
+        Hallo! Ich bin Isa Halimi. Zurzeit arbeite ich als Bauvorarbeiter im Baugewerbe. Ich habe mich aber für die Umschulung zum Informatiker in Bereich Applikationsentwicklung entschieden. Ich bin Angehender Applikationsentwickler bei der Benedict Schule in Zürich. Nach dem Abschluss bei Benedict als Informatiker EFZ, werde ich den Informatiker HF angehnen, und mich im Entwicklerbereich immer mehr weiterentwickeln.
+    </p>
+    <h3 class="padding-16 text-light-grey">My Skills</h3>
+    <p class="wide">HTML und CSS3</p>
+    <div class="white">
+      <div class="dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="wide">C++</p>
+    <div class="white">
+      <div class="dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="wide">JavaScript</p>
+    <div class="white">
+      <div class="dark-grey" style="height:28px;width:50%"></div>
+    </div><br>
+    <p class="wide">C#</p>
+    <div class="white">
+      <div class="dark-grey" style="height:28px;width:40%"></div>
+    </div><br>
+    
+    <div class="row center padding-16 section light-grey">
+      <div class="quarter section">
+        <span class="xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="quarter section">
+        <span class="xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="quarter section">
+        <span class="xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="quarter section">
+        <span class="xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="button light-grey padding-large section">
+      <i class="fa fa-download"></i> <a href="CV_Isa_Halimi.pdf" target="_blank" >Download CV</a>
+    </button>
+    
+    
+    
+    
+    <!-- Testimonials --
+    <h3 class="padding-24 text-light-grey">My Reputation</h3>  
+    <img src="#" alt="Avatar" class="left circle margin-right" style="width:80px">
+    <p><span class="large margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="#" alt="Avatar" class="left circle margin-right" style="width:80px">
+    <p><span class="large margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+    -- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="padding-64 content" id="photos">
+    <h2 class="text-light-grey">Meine Projekte</h2>
+    <hr style="width:200px" class="opacity">
+
+    <!-- Grid for projects -->
+    <div class="row-padding" style="margin:0 -16px">
+      <div class="half">
+        <img src="#" style="width:100%">
+        <img src="#" style="width:100%">
+        <img src="#" style="width:100%">
+      </div>
+
+      <div class="half">
+        <img src="#" style="width:100%">
+        <img src="#" style="width:100%">
+        <img src="#" style="width:100%">
+        <img src="#" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="padding-64 content text-grey" id="contact">
+    <h2 class="text-light-grey">Kontakt</h2>
+    <hr style="width:200px" class="opacity">
+
+    <div class="section">
+      <p><i class="fa fa-map-marker fa-fw text-white xxlarge margin-right"></i> Grüningen ZH</p>
+      <p><i class="fa fa-phone fa-fw text-white xxlarge margin-right"></i> Tel: 079 874 01 95</p>
+      <p><i class="fa fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: isa.halimi@gmail.com</p>
+    </div><br>
+    <p>Nachricht schreiben:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="input padding-16" type="text" placeholder="Betreff" required name="Subject"></p>
+      <p><input class="input padding-16" type="text" placeholder="Nachricht" required name="Message"></p>
+      <p>
+        <button class="button light-grey padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Nachricht Senden
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<!-- Footer..-->
+<footer class="content padding-64 text-grey xlarge">
+ <!-- <i class="fa fa-facebook-official hover-opacity"></i>
+  <i class="fa fa-instagram hover-opacity"></i>
+  <i class="fa fa-snapchat hover-opacity"></i>
+  <i class="fa fa-pinterest-p hover-opacity"></i>
+  <i class="fa fa-twitter hover-opacity"></i> -->
+  <a class="fa fa-linkedin hover-opacity" href="https://www.linkedin.com/in/isa-halimi-5a7756188/" target="_blank"></a>
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
