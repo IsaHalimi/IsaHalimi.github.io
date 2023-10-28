@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+<div class="container">
+    <h1>Isa Halimi</h1>
+    <h3>Vom Bauprozess zum agilen Development:</h3>
+    <h3> Motivierter Quereinsteiger mit einem soliden Fundament</h3>
+    <h3> und Fokus auf IT-Weiterbildungen.</h3>
+    <section id="about">
+            <h2>About</h2>
+            <h4>Sehr engagiert und euserst motiviert mache ich </h4>
+            <h4>zurzeit die Umschulung bei Benedict in Zürich</h4>
+            <h4>Mein Ziel ist, ein erfolgreicher Wechsel zur IT</h4>
+            <h4>und mich stetig weiterzubilden in Zukunft.</h4><br>
+            <h4> Mein nächstes Ziel wird Informatik HF sein</h4>
+            <br>
+            <a class="cv-button" href="CV_IsaHalimi.pdf" download>Download CV</a>
+            <a class="cv-button" href="https://www.linkedin.com/in/isa-halimi-5a7756188/" target="_blank">LinkedIn</a>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p class="skill-name">HTML und CSS3</p>
+            <div class="white">
+                <div class="dark-grey" style="width: 65%;"></div>
+            </div>
+        </div><br>
+        <div class="skill">
+            <p class="skill-name">JavaScript</p>
+            <div class="white">
+                <div class="dark-grey" style="width: 65%;"></div>
+            </div>
+        </div><br>
+        <div class="skill">
+            <p class="skill-name">C++</p>
+            <div class="white">
+                <div class="dark-grey" style="width: 65%;"></div>
+            </div>
+        </div><br>
+        <div class="skill">
+            <p class="skill-name">Java</p>
+            <div class="white">
+                <div class="dark-grey" style="width: 65%;"></div>
+            </div>
+        </div><br>
+        <div class="skill">
+            <p class="skill-name">PHP</p>
+            <div class="white">
+                <div class="dark-grey" style="width: 50%;"></div>
+            </div>
+        </div><br>
+        <div class="skill">
+            <p class="skill-name">SQL</p>
+            <div class="white">
+                <div class="dark-grey" style="width: 50%;"></div>
+            </div>
+        </div><br>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project active">
+            <h4>Tetris in Java</h4>
+            <p>Modulabschlussprojekt in Java</p>
+            <img src="/project/tetris-start.png" alt="Tetris Image">
+            <a href="https://github.com/IsaHalimi/TetrisGameInJava" target="_blank" class="github-link">GitHub</a><br>
+          </div>
+          <div class="project">
+            <h4>PHP</h4>
+            <p>Modulabschlussprojekt in PHP</p>
+            <img src="/project/PHP.jpg" alt="PHP Image">
+            <a href="https://github.com/IsaHalimi/PHPModulpruefung/tree/main/PHPModulpruefung" target="_blank" class="github-link">GitHub</a><br>
+          </div>
+          <div class="project">
+            <h4>Bildergallerie</h4>
+            <p>Arbeiten nach SCRUM</p>
+            <img src="/project/bildergallerie.jpg" alt="Bildergallerie Image">
+            <a href="https://github.com/IsaHalimi/Bildergalerie" target="_blank" class="github-link">GitHub</a><br>
+          </div>
+          <div class="project">
+            <h4>Passwortkarte</h4>
+            <p>Arbeiten nach SCRUM</p>
+            <img src="/project/pw-bild.jpg" alt="Passwortkarte Image">
+            <a href="https://github.com/IsaHalimi/Passwortkarte" target="_blank" class="github-link">GitHub</a><br>
+          </div>
+        </div>
+        <div class="slide-buttons-container">
+            <button id="prevButton" class="slide-button"></button>
+            <button id="nextButton" class="slide-button"></button>
+        </div>
+      </section>
+    <section id="contact">
+        <h2>Contact (comming soon)</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+              <form action="/action_page.php" target="_blank">
+                <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="input padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="input padding-16" type="text" placeholder="Betreff" required name="Subject"></p>
+                <p><textarea class="input padding-16 large-input" placeholder="Nachricht" required name="Message"></textarea></p>
+                <p>
+                  <button class="button light-grey padding-large" type="submit">
+                    <div class="g-recaptcha" data-sitekey="6LfBnQkoAAAAAB_XGQQHbEfKLJJvqnKUWXgWIT4x"></div>
+                    <i class="send-msg"></i> Nachricht Senden
+                  </button>
+                </p>
+              </form>
+            </div>
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1184.3709555182108!2d8.759190059493509!3d47.27944509862641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aba7d3e097755%3A0xd2a093eec2f529b8!2sNiderwisstrasse%204%2C%208627%20Gr%C3%BCningen!5e0!3m2!1sde!2sch!4v1686602689231!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          
+    </section>
+</div>
+<h2><a href="main.html">TOP</a></li></h2>
+<div>
+    <footer>
+        <b4>© 2023 isahalimi.ch</b4>
+    </footer>
+</div>
+    <script src="Main.js"></script>
+</body>
+</html>

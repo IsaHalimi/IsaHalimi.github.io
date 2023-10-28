@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-image: url('/bilder/sterne1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    top: 1%;
+    font-size: 5em;
+}
+
+h2 {
+    top: 350px;
+    font-size: 5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 5em;
+}
+
+#menuToggle {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    #menuToggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    nav {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        transition: transform 0.3s ease-in-out;
+    }
+}
